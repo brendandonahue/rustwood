@@ -12,7 +12,7 @@ Welcome to our open-source project, where we're building a robust full-stack web
 
 ## Project Status
 
-This project is in the [alpha/beta/stable] stage. We're actively seeking contributors to help with [specific areas of development, e.g., frontend development, Rust backend services, gRPC implementation].
+This project is in the alpha stage. We're actively seeking contributors to help with finalizing initial implementation. The server is working with gRPC, but there are client-side errors getting gRPC to work in a React environment.  The solution may be a working Envoy proxy instance to facilitate communication with gRPC and React.  Clone the project and submit a pull request if you can help.
 
 ## Getting Started
 
@@ -22,6 +22,8 @@ This project is in the [alpha/beta/stable] stage. We're actively seeking contrib
 - Rust (latest stable version)
 - Yarn
 - Docker (for database and other services)
+- gRPC dependencies including cMake, protoc, etc
+- Envoy proxy for client-side gRPC proxy communication
 
 ### Installation
 
